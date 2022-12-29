@@ -20,4 +20,6 @@ export default {
 }
 </script>
 
-<style lang="less"></style>
+<style lang="less">
+  @import url('./assets/fonts/iconfont.css');
+</style>
