@@ -1,8 +1,13 @@
+/**
+ * 二次封装 axios 请求模块
+ */
 import axios from 'axios'
 
 export function request (config) {
   const instance = axios.create({
-    baseURL: '',
+    // baseURL: 'http://ttapi.research.itcast.cn/',
+    // baseURL: 'http://toutiao.itheima.net',
+    baseURL: 'http://api-toutiao-web.itheima.net',
     timeout: 5000
   })
   // 请求拦截器

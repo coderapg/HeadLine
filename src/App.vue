@@ -12,5 +12,5 @@ export default {
 </script>
 
 <style lang="less">
-  @import url('./assets/fonts/iconfont.css');
+  @import url('./styles/base.less');
 </style>
